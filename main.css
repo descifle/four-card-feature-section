@@ -47,11 +47,11 @@ p {
   padding: 1rem;
   border-radius: 5px;
   box-shadow: 2px 8px 24px -4px #4c4e61;
+  overflow: hidden;
 }
 .card img {
-  position: relative;
-  left: 12rem;
-  top: 3rem;
+  float: right;
+  margin-top: 3rem;
 }
 
 .card1 {
@@ -99,9 +99,8 @@ p {
     box-shadow: 2px 8px 24px -4px #4c4e61;
   }
   .card img {
-    position: relative;
-    left: 12rem;
-    top: 3rem;
+    float: right;
+    margin-top: 4rem;
   }
 
   .card1 {
