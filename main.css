@@ -7,9 +7,8 @@ html, body {
 }
 
 main {
-  padding-top: 4rem;
   width: 85%;
-  margin: auto;
+  margin: 4rem auto;
 }
 
 .header {
@@ -76,7 +75,7 @@ p {
   color: #4c4e61;
 }
 
-@media (min-width: 40rem) {
+@media (min-width: 50rem) {
   html, body {
     height: 100%;
   }
@@ -124,7 +123,7 @@ p {
     align-self: center;
   }
 }
-@media (min-width: 40rem) and (max-width: 75rem) {
+@media (min-width: 50rem) and (max-width: 75rem) {
   .card__container {
     display: grid;
     margin-top: 4rem;
@@ -154,28 +153,5 @@ p {
     justify-self: center;
   }
 }
-/* .card1 {
-        position: relative;
-        left: 38%;
-        top: 5rem;
-    }
-
-    .card2 {
-        position: relative;
-        bottom: 2.7rem;
-        left: 7rem;
-    }
-
-    .card3 {
-        position: relative;
-        bottom: 21rem;
-        left: 67%;
-    }
-
-    .card4 {
-        position: absolute;
-        bottom: 5rem;
-        left: 39.7%;
-    } */
 
 /*# sourceMappingURL=main.css.map */
